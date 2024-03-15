@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+}
+
+.box1 {
+    height: 540px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.box2 {
+    border: 2px solid #eeeeee;
+    box-shadow: inset;
+    height: 205px;
+    width: 100vw;
+    background-color: #fcfcfc;
+}
+
+.box3 {
+    position: absolute;
+    top: 62px;
+    left: 588px;
+    border-radius: 8px;
+    border: 2px solid #eeeeee;
+    height: 445px;
+    width: 342px;
+}
+
+.sign {
+    position: absolute;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: rgb(17, 17, 17);
+    top: 21px;
+    font-size: 28px;
+    font-weight: 400;
+    left: 28px;
+}
+
+.email {
+    position: absolute;
+    top: 85px;
+    left: 27px;
+    height: 26px;
+    width: 289px;
+    border-radius: 3px;
+    border-color: #0F1111;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+}
+
+.email:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+label {
+    position: absolute;
+    top: 64px;
+    font-size: 13px;
+    left: 29px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 19px;
+    color: #111;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.btn {
+    position: absolute;
+    top: 203px;
+    height: 30px;
+    width: 289px;
+    left: 27px;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 7px;
+    color: #0F1111;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(241, 205, 61);
+}
+
+.pass {
+    position: absolute;
+    top: 129px;
+    font-size: 13px;
+    left: 29px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 19px;
+    color: #111;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.password {
+    position: absolute;
+    top: 150px;
+    left: 27px;
+    height: 26px;
+    width: 289px;
+    border-radius: 3px;
+    border-color: #0F1111;
+
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    outline: 0;
+}
+
+.password:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.forgot {
+    position: absolute;
+    top: 133px;
+    font-size: 12px;
+    left: 198px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-decoration: none;
+}
+
+.lines {
+    position: absolute;
+    top: 250px;
+    font-size: 12px;
+    width: 276px;
+    left: 35px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.check {
+    position: absolute;
+    top: 304px;
+    left: 37px;
+}
+
+.checklabel {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.pline {
+    position: absolute;
+    top: 361px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    left: 120px;
+    font-size: 13px;
+    color: #949494;
+
+}
+
+.line1 {
+    position: absolute;
+    top: 352px;
+    left: 15px;
+    color: #949494;
+}
+
+.line2 {
+    position: absolute;
+    top: 352px;
+    left: 228px;
+    color: #949494;
+}
+
+.submit {
+    position: absolute;
+    top: 397px;
+    height: 30px;
+    width: 289px;
+    left: 27px;
+    background-color: #ffffff;
+    border-color: #0F1111;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    border-radius: 7px;
+    color: #595959;
+    font-weight: 100;
+    opacity: .7;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #fcfcfc;
+}
+
+.logo {
+    position: absolute;
+
+    top: -6px;
+    left: 696px;
+}
+
+/* font-family: "Amazon Ember",Arial,sans-serif; */
+.pbox2 {
+    position: absolute;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    top: 565px;
+    left: 633px;
+    font-size: 12px
+}
+
+.lastline {
+    position: absolute;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    top: 598px;
+    left: 635px;
+    color: #868686;
+    font-size: 12px
+}

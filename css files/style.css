@@ -1,0 +1,417 @@
+/* :root{
+    --var:  'Amazon Ember', sans-serif;
+     /* 'Amazon Ember Cd RC', sans-serif,
+     'Amazon Ember Display', sans-serif,
+     'Amazon Ember Duospace', sans-serif,
+     'Amazon Ember Mono', sans-serif,
+     'Amazon Ember V2', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+.body{
+    background-color: #e3e6e6;
+}
+.container {
+
+    width: 1536px;
+    height: 100px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.386);
+}
+
+.box1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 1536px;
+    height: 60%;
+    color: aliceblue;
+    background-color: #131921;
+}
+
+.select {
+    position: relative;
+    top: 08px;
+
+    left: 217px;
+    width: 48px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.select:hover {
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.ser {
+    position: relative;
+    top: 08px;
+    width: 828px;
+    left: 213px;
+    height: 40px;
+    border: none;
+
+}
+
+.box3 {
+    position: relative;
+    top: -32px;
+    left: 1093px;
+    width: 45px;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0px;
+    height: 40px;
+}
+
+img {
+    position: absolute;
+    padding: 2px;
+    margin: 0px;
+    height: fit-content;
+    width: 20px;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    width: 45px;
+    height: 40px;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0px;
+    border: none;
+}
+
+button:hover {
+    background-color: #eca03d;
+    cursor: pointer;
+}
+
+.box2 {
+    width: 1536px;
+    height: 40%;
+    background-color: #232f3e;
+    color: aliceblue;
+}
+
+.cimg {
+    position: absolute;
+    width: 20px;
+    right: 451px;
+    top: 18px;
+}
+
+.limg {
+    position: absolute;
+    width: 116px;
+    left: 3px;
+    top: -2px;
+}
+
+.locimg {
+    position: absolute;
+    left: 120px;
+    top: 19px;
+    padding: 3px;
+    height: 20px;
+}
+
+.deliver{
+    position: absolute;
+
+
+    left: 145px;
+    color: #86888b;
+    font-size: 12px;
+    top: 12px;
+    font-weight: 550;
+}
+
+.deliver:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+.india {
+    position: absolute;
+
+    left: 145px;
+    font-size: 15px;
+    font-weight: 550;
+    top: 27px;
+    color: #cdced0;
+text-decoration: none;
+}
+
+.india:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.indflag {
+    position: absolute;
+
+    right: 342px;
+    top: 24px;
+
+    width: 31px;
+    height: 15px;
+}
+
+.lang {
+    position: absolute;
+
+    top: 24px;
+    right: 305px;
+    width: 18px;
+
+    color: rgba(197, 195, 195, 0.816);
+    background-color: #131921;
+    border: none;
+}
+.lang:hover{
+cursor: pointer;
+color: white;
+}
+.plang {
+    position: absolute;
+
+    width: 18px;
+    left: 1192px;
+    top: 24px;
+    font-size: 14px;
+    color: #cdced0;
+}
+
+.plang:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.hello {
+    position: absolute;
+
+    left: 1239px;
+    top: 12px;
+    font-size: 11px;
+    color: #cdced0;
+}
+
+.hello:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.account {
+    position: absolute;
+
+    left: 1239px;
+    top: 27px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #cdced0;
+}
+
+.account:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.return {
+    position: absolute;
+
+    left: 1376px;
+    top: 12px;
+    font-size: 11px;
+    color: #cdced0;
+}
+
+.order {
+    position: absolute;
+
+    left: 1376px;
+    top: 27px;
+    font-size: 14px;
+    color: #cdced0;
+}
+
+.return:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.order:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.cart {
+    position: absolute;
+    width: 42px;
+    right: 36px;
+    top: 5px;
+}
+
+.cart:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.cart1 {
+    position: absolute;
+
+    left: 1497px;
+    top: 23px;
+    font-size: 14px;
+    color: #cdced0;
+}
+
+.cart1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-a {
+    position: absolute;
+
+    top: 68px;
+    left: 81px;
+
+    font-size: 14px;
+
+    text-decoration: none;
+    color: #cdced0;
+}
+
+.nav-b {
+    position: absolute;
+
+    top: 68px;
+    font-size: 14px;
+    left: 184px;
+    text-decoration: none;
+    color: #cdced0;
+}
+
+.nav-c {
+    position: absolute;
+
+    top: 68px;
+    left: 314px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #cdced0;
+}
+
+.nav-d {
+    position: absolute;
+
+    top: 68px;
+    left: 380px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #cdced0;
+}
+
+.nav-e {
+    position: absolute;
+    top: 68px;
+    left: 456px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #cdced0;
+}
+
+.ham {
+    position: absolute;
+    left: 13px;
+    top: 64px;
+    width: 24px;
+
+}
+
+.all {
+    position: absolute;
+    top: 68px;
+    left: 44px;
+    font-size: 14px;
+    font-size: 17px;
+    color: #cdced0;
+}
+
+.all:hover {
+    color: white;
+    cursor: pointer;
+    border: 0.1px solid;
+    width: 30px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+
+.nav-a:hover {
+    border: 0.1px solid;
+    width: 90px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.nav-b:hover {
+    border: 0.1px solid;
+    width: 117px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.nav-c:hover {
+    border: 0.1px solid;
+    width: 53px;
+    height: 20px;
+    padding: 2px 0px 0px 5px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.nav-d:hover {
+    border: 0.1px solid;
+    width: 70px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.nav-e:hover {
+    border: 0.1px solid;
+    width: 30px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.ham:hover {
+
+    color: white;
+    cursor: pointer;
+}
+
